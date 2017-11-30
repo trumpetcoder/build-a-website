@@ -1,0 +1,92 @@
+/*Linked CSS Page to index.html*/
+
+/* box model reset*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background: #fff;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+}
+
+nav {
+	background: #333;
+	height: 100px;	
+}
+
+ul li  {
+	display: inline;
+}
+
+li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 40px;
+}
+
+li a:hover {
+	color: #cc3300;
+}
+
+main {
+	height: 300px;
+	background: #9494b8;
+	
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+h1 {
+	font-weight: 800;
+	margin-left: 80px;
+}
+
+main p {
+	margin-left: 80px;
+}
+
+#trumpet {
+	height: 200px;
+	width: 200px;
+	float: right;
+	margin-right: 60px;
+}
+
+footer {
+	background: #333;
+	height: 200px;
+	color: #fff;
+	text-align: center;
+}
+
+h2 {
+	padding-top: 20px;
+}
+
+i {
+	padding: 50px;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
